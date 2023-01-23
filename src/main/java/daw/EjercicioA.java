@@ -203,7 +203,7 @@ public class EjercicioA {
         
         for (int i = 0; i < matrizA.length; i++) {
             
-            if (matrizA[fila][i] >/*=*/ mayorFila) {
+            if (matrizA[fila][i] >= mayorFila) {
 
                 //Igualo el valor de mayorFila al numero que supere su valor
                 mayorFila = matrizA[fila][i];
